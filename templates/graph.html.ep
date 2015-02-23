@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script  src="/d3/js/d3.min.js"></script>
+        <link href="/nvd3/css/nv.d3.min.css" rel="stylesheet">
+        <script src="/nvd3/js/nv.d3.min.js"></script>
+        <script src="/mychart.js"></script>
+       <style>
+                body {
+                border: 1em solid #fff;
+                font-family: sans-serif;
+                }
+
+		.yellowColorGadget {
+    			background-color:yellow;
+    			width: 7em;  height: 3em;
+                 }
+
+        </style>
+    <style>
+        text {
+            font: 12px sans-serif;
+        }
+        svg {
+            display: block;
+        }
+        html, body, svg {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+
+</head>
+<body>
+<div style="text-align: center;font-weight: bold; font-size: 250%">NVD3 iii Graph Example</div>
+
+
+ <svg style='height:600px'/>
+
+<script src="mychart.js"></script>
+
+
+</body>
+</html>
+
+
