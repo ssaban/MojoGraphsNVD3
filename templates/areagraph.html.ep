@@ -4,7 +4,7 @@
         <script  src="/d3/js/d3.min.js"></script>
         <link href="/nvd3/css/nv.d3.min.css" rel="stylesheet">
         <script src="/nvd3/js/nv.d3.min.js"></script>
-        <script src="/mychart.js"></script>
+        <script src="/areaChart.js"></script>
        <style>
                 body {
                 border: 1em solid #fff;
@@ -18,19 +18,15 @@
 
         </style>
     <style>
-        text {
-            font: 12px sans-serif;
+        
+        #chart svg {
+          height: 200px;
+          width:400px;
         }
-        svg {
-            display: block;
-        }
-        html, body,svg {
-            margin: 0px;
-            padding: 0px;
-            height: 80%;
-            width: 80%;
-        }
-
+        
+        </style>
+        
+        
     </style>
 
 </head>
@@ -43,9 +39,11 @@
     <td>not disclosed</td>		
     <td>
 
-<svg style='height:200px'/>
-     <script src="mychart.js"></script>
+        <div id="chart">
+          <svg></svg>
+     <script src="areaChart.js"></script>
 
+        </div>
     </td>
   </tr>
 </table>

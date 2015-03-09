@@ -8,11 +8,11 @@ use lib "$FindBin::Bin/bin";      # use the utilities used in this file are rela
 plugin 'PODRenderer';
   
 
-get '/' => {text => 'I ♥ Mojolicious!'};
+#get '/' => {text => 'I ♥ Mojolicious!'};
 
-get '/show-graph' => sub {
+get '/' => sub {
   my $self = shift;
-  $self->render('graph');
+  $self->render('areagraph');
 };
 
 #app->config(hypnotoad => {listen => ['http://*:3000']});
